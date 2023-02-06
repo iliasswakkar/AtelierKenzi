@@ -1,0 +1,1295 @@
+/*
+Theme Name:     Ateliercreation
+Description:    ThÃ¨me enfant d'Amandine Villeneuve
+Author:         Amandine Villeneuve
+Author URI:     
+Template:       astra                         
+Version:        0.1.0
+*/
+
+@media (min-width: 922px) {
+  .ast-primary-header-bar {
+     border-bottom-width: inherit;
+     border-bottom-color: transparent; 
+     border-bottom-style: solid; 
+  }
+}
+@media (min-width: 922px) {
+  .main-header-bar {
+    border-bottom-width: 0px;
+  }
+}
+.site-title {
+  display: none;
+}
+.ast-logo-title-inline .site-logo-img {
+  padding-right: inherit;
+}
+.ast-logo-title-inline .ast-site-identity {
+  padding: inherit;}
+
+.ast-site-identity {
+  padding: inherit;}
+
+@media (min-width: 922px) {
+  .ast-container {
+    max-width: inherit;
+  }
+}
+
+.ast-container, .ast-container-fluid {
+  padding-left: inherit; 
+  padding-right: inherit; 
+}
+
+/* POLICES */
+
+@font-face {
+  font-family: 'brannboll';
+  src: url('fonts/brannbollfs_personal-webfont.eot');
+  src: url('fonts/brannbollfs_personal-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/brannbollfs_personal-webfont.woff2') format('woff2'),
+       url('fonts/brannbollfs_personal-webfont.woff') format('woff'),
+       url('fonts/brannbollfs_personal-webfont.ttf') format('truetype'),
+       url('fonts/brannbollfs_personal-webfont.svg#brannboll_f_personal_use_onRg') format('svg');
+  font-weight:normal;font-style:normal;}
+@font-face {
+  font-family: 'Gotham Book';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/gotham-book.eot');
+  src: url('fonts/gotham-book.eot?#iefix') format('embedded-opentype'),
+     url('fonts/gotham-book.woff2') format('woff2'),
+     url('fonts/GothamBook.woff') format('woff'),
+     url('fonts/GothamBook.ttf')  format('truetype'),
+     url('fonts/gotham-book.svg') format('svg');
+}
+@font-face {
+  font-family: 'Gotham Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Gotham-Light.woff') format('woff'),
+      url('fonts/GothamLight.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Gotham Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/gotham-medium.eot');
+  src: url('fonts/gotham-medium.eot?#iefix') format('embedded-opentype'),
+     url('fonts/gotham-medium.woff2') format('woff2'),
+     url('fonts/GothamMedium.woff') format('woff'),
+     url('fonts/GothamMedium.ttf')  format('truetype'),
+     url('fonts/gotham-medium.svg') format('svg');
+}
+@font-face {
+  font-family: 'Gotham Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Gotham-Bold.eot');
+  src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+     url('fonts/Gotham-Bold.woff2') format('woff2'),
+     url('fonts/GothamBold.woff') format('woff'),
+     url('fonts/Gotham-Bold.ttf')  format('truetype'),
+     url('fonts/Gotham-Bold.svg') format('svg');
+}
+
+
+::-moz-selection{background:#2eb1bb;color:#fff;}
+::selection{background:#2eb1bb;color:#fff;}
+
+
+/* BOUTONS */
+/* SE CONNECTER ESPACE MEMBRE */
+
+.acces_membres > a:nth-child(1) {
+  color: white;
+  background-color: #E74D5D;
+  padding: 11px 16px;
+  display: inline-block;
+  border-radius: 0px 0px 0px 24px;
+  font-weight: 700;
+}
+.acces_membres {
+  text-align: right;
+ }
+ 
+
+ /* GENERAL */
+h1{
+  font-family: 'brannboll';
+  padding:30px 73px;
+  font-size: 3.5em;  
+}
+
+h2{
+  font-family: 'Gotham Bold';
+  line-height: 1;
+  font-weight: 700;
+  padding: 30px;
+  padding: 30px 30px 30px 45px;
+  color: #E84B5E;
+}
+.main-header-menu > .menu-item > .menu-link {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h3{
+  font-family: 'Gotham Bold';
+  padding-bottom: 20px;
+}
+h3,
+.entry-content h3 {
+ font-size:1.3rem;
+ line-height: 1.1;
+}
+
+strong{
+  font-family:'Gotham Bold';
+}
+p{
+  font-family: 'Gotham Book';
+}
+
+p>a {
+  font-family: 'Gotham Book';
+  font-weight: 900;
+  color: #53BFC7;
+  font-size: 15px;
+}
+
+
+div.wp-block-columns:nth-child(9) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > span:nth-child(1) > a:nth-child(1) {
+  color: white;
+  font-family: 'Gotham Bold';
+ }
+ #menu-pied-de-page {
+  display: flex;
+  justify-content: end;
+ }
+ footer .menu-link{
+  color: black;
+  padding-right: 12px;
+ }
+ 
+.ast-separate-container {
+  background-color: inherit; 
+}
+
+.site-title > a:nth-child(1) {
+  display: none;
+}
+
+.ast-separate-container .ast-article-post,
+.ast-separate-container .ast-article-single {
+ background-color:#fff;
+
+ margin:0;
+padding:inherit;
+}
+.main-header-menu > .menu-item > .menu-link {
+  font-family: 'Gotham Bold';
+ }
+
+#menu-item-11 > a:nth-child(1) {
+  color: #2EB1BB;
+}
+
+#menu-item-12 > a:nth-child(1) {
+  color: #F8CF1B;
+}
+
+#menu-item-104 > a:nth-child(1) {
+  color: #A9D6C6;
+}
+
+#menu-item-112 > a:nth-child(1) {
+  color: #E84B5E;
+}
+
+ .main-header-menu > .menu-item > .menu-link:hover {
+  color: black;
+ }
+ .main-header-menu > .menu-item > .menu-link:active {
+  color: black;
+  font-family: 'Gotham Bold';
+ }
+.page-template.page-template-template-plansite .ast-container{
+  padding: 0px 100px;
+
+}
+ @media (min-width:782px) {
+  .wp-block-column {
+   border: 2px solid grey;
+  }
+ }
+/* HEADER */
+.container{
+  width: 90%;
+  margin:auto;
+}
+/* GALERIE IMAGE */
+.page-template-default.page.page-id-90 .ast-container{
+  width: 95%;
+}
+.wp-block-columns.hero_image{
+  padding: inherit;
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.wp-block-image.size-large.decouverte img{
+  height: 199px;
+  border-radius: 24px 0px 24px 0px;
+}
+/* div.wp-block-group:nth-child(2) {
+  padding-top: inherit;
+ }  */
+p.has-text-align-center {
+  width: 50%;
+}
+
+.wp-block-group {
+  padding-top: inherit
+}
+
+
+
+/*presentation*/
+div.wp-block-columns:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
+  background-color: #2EB1BB;
+  color: white;
+}
+.home div.wp-block-group:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
+  color: white;
+}
+.wp-block-button.bleu a{
+  background-color: #11757C;
+}
+div.wp-block-columns:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(3) {
+  padding-top: 30px;
+ }
+ div.presentation:nth-child(1) {
+  width: 100%;
+  height: 100%;
+ }
+ 
+ div.presentation:nth-child(1) > div:nth-child(1) > figure:nth-child(1) {
+  width: 100%;
+  height: 100%;
+ }
+ .wp-image-229 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+ }
+
+ .wp-block-columns.presentation>.wp-block-column {
+   margin:0rem 0;
+  }
+ 
+ 
+ 
+
+/* OFFRES */
+
+div.wp-block-columns:nth-child(9) {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+ }
+ .wp-block-group.offres{
+  border-radius: 73px;
+  text-align: center;
+}
+div.wp-block-columns:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(5) > strong:nth-child(2) > span:nth-child(1) {
+  font-size: 1.5rem;
+ }
+
+div.wp-block-group:nth-child(4) > div:nth-child(1) {
+  margin-top: 50px;
+}
+
+/* ATELIERS */
+.cards_menu {
+  width: 95%;
+  margin: auto;
+ }
+ 
+.wp-block-group.aside:nth-child(n+2){
+  margin-top:3em;
+}
+.aside h2{
+    padding: 10px 10px 10px 0px;
+}
+.aside a{color:#fff;text-decoration:underline;}
+.ateliers-template-default.single.single-ateliers .wp-block-columns{
+  width: 95%;
+  margin: auto;
+}
+.ateliers-template-default.single.single-ateliers h1{
+  width: 95%;
+  margin: auto;
+}
+
+.ast-flex {
+  flex-direction: row;
+}
+
+.ast-builder-grid-row {
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.ast-inline-flex {
+  display: inline-flex;
+  justify-content: center;
+}
+.site-header-primary-section-left {
+  justify-content: center;
+}
+
+#ast-hf-menu-1 {
+  width: 100%;
+} 
+
+.wp-block-group.aside ol,
+ul {
+ margin:0 0 1.5em 0em;
+}
+a > img:nth-child(1) {
+  object-fit: contain;
+}
+
+
+ 
+/* footer */
+.site-primary-footer-wrap {
+  padding-top: inherit; 
+  padding-bottom: inherit; 
+}
+
+
+
+
+
+
+/* PAGE MES COURS ARCHIVES */
+@media (min-width: 1000px) {
+  div .cards_menu .div.card_actu div.card-title {
+    min-height: 64px;
+  }
+  
+}
+.page-template-template-cours div.card_actu.atelier img{
+  object-fit: cover;
+}
+.page-template-template-cours #content h2{
+  /* background-color: rebeccapurple; */
+  height: 110px;
+}
+/* .page-template-template-cours .cards_actu.menu{
+  grid-template-rows: repeat(2, 330px);
+} */
+
+
+.cards_menu h2{
+	color: #53BFC7;
+	/* width: 80%; */
+	margin: 0 auto;
+  font-family: 'Gotham Bold';
+}
+
+div.cards_actu {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-top: 0px;
+  flex-direction: column;
+}
+.cards_actu.menu{
+ width: 85%;
+  background-color: inherit;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+  gap: 20px;
+  /* padding-top: 58px; */
+}
+
+
+@media (min-width: 940px) {
+ .cards_actu.menu{
+    width: 100%;
+   background-color: inherit;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(8, auto);
+   gap: 20px;
+   /* padding-top: 58px; */
+ }
+}
+@media (min-width: 1200px) {
+ .cards_actu.menu{
+   width: 100%;
+   background-color: inherit;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(8, auto);
+   gap: 20px;
+   /* padding-top: 58px; */
+   }	
+ }
+@media (min-width: 1000px) {
+  div.cards_actu {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+  }
+
+
+  div.card_actu div.card-description {
+    font-size: 2rem;
+  }
+
+  div.cards_actu.decouvrir {
+    width: 80%;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 0px;
+    background-color: #287782;
+    /* margin-bottom: 60px; */
+    padding: 50px;
+  }
+
+  .card_actu.deux {
+    display: block;
+  }
+
+
+}
+div.card_actu {
+  background: #ffffff;
+  display: inline-block;
+  margin: 8px;
+  perspective: 1000;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s 0s ease-in;
+  z-index: 1;
+  flex: 1;
+  box-shadow: 6px 7px 21px -3px rgba(125, 119, 119, 0.75);
+  -webkit-box-shadow: 6px 7px 21px -3px rgba(125, 119, 119, 0.75);
+  -moz-box-shadow: 6px 7px 21px -3px rgba(125, 119, 119, 0.75);
+  width: 100%;
+
+}
+
+div.card_actu img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+ 
+}
+div.card_actu.atelier img {
+padding: 20px;
+background-color: white;
+object-fit: contain;
+}
+
+
+
+div.card_actu .card__image-holder {
+  background: rgba(0, 0, 0 0.1);
+  max-height: 300px;
+
+}
+
+div.card_actu div.card-title {
+  background: #ffffff;
+  padding: 6px 15px 10px;
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+
+div.card_actu div.card-title h2 {
+  min-height: 76px;
+}
+
+
+@media (min-width: 1000px) {
+  div .cards_menu .div.card_actu div.card-title {
+    min-height: 64px;
+
+  }
+}
+
+div.card_actu div.card-title a.toggle-info {
+  border-radius: 32px;
+  height: 32px;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 32px;
+}
+
+div.card_actu div.card-title a.toggle-info span {
+  background: #ffffff;
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 16px;
+  transition: all 0.15s 0s ease-out;
+  width: 12px;
+}
+
+div.card_actu div.card-title a.toggle-info span.left {
+  right: 14px;
+  transform: rotate(45deg);
+}
+
+div.card_actu div.card-title a.toggle-info span.right {
+  left: 14px;
+  transform: rotate(-45deg);
+}
+
+div.card_actu div.card-title h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  margin: 0;
+ padding: 0px 26px 0px 0px ;
+ text-align: left;
+  /* min-height: 76px; */
+}
+
+div.card_actu div.card-title h2 small {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+div.card_actu div.card-description {
+  padding: 0 15px 10px;
+  position: relative;
+  font-size: 14px;
+}
+
+div.card_actu div.card-actions {
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+  padding: 10px 15px 20px;
+  text-align: center;
+}
+
+div.card_actu div.card-flap {
+  background: #d9d9d9;
+  position: absolute;
+  width: 100%;
+  transform-origin: top;
+  transform: rotateX(-90deg);
+}
+
+div.card_actu div.flap1 {
+  transition: all 0.3s 0.3s ease-out;
+  z-index: -1;
+}
+
+div.card_actu div.flap2 {
+  transition: all 0.3s 0s ease-out;
+  z-index: -2;
+}
+
+div.cards_actu.showing div.card_actu {
+  cursor: pointer;
+  opacity: 0.6;
+  transform: scale(0.88);
+}
+
+.no-touch div.cards_actu.showing div.card_actu:hover {
+  opacity: 0.94;
+  transform: scale(0.92);
+}
+
+div.card_actu.show {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+
+div.card_actu.show div.card-title a.toggle-info span {
+  top: 15px;
+}
+
+div.card_actu.show div.card-title a.toggle-info span.left {
+  right: 10px;
+}
+
+div.card_actu.show div.card-title a.toggle-info span.right {
+  left: 10px;
+}
+
+div.card_actu.show div.card-flap {
+  background: #ffffff;
+  transform: rotateX(0deg);
+}
+
+div.card_actu.show div.flap1 {
+  transition: all 0.3s 0s ease-out;
+}
+
+div.card_actu.show div.flap2 {
+  transition: all 0.3s 0.2s ease-out;
+}
+div.card_actu .card__image-holder {
+	/* max-height: 165px; */
+	/* padding-bottom: 75%; */
+	max-height: 350px;
+  }
+  div.card-title a {
+    color: #2A3945;
+  }
+ /* SINGLE COURS */
+
+#primary > p:nth-child() {
+  width: 57%;
+  margin-left: 57px;
+}
+#primary > h1:nth-child(2) {
+  padding-left: 56px;
+}
+h1 {
+  padding-bottom: 0px;
+}
+
+
+ .post-template-default.single.single-post .attachment-post-thumbnail {
+  width:100%;object-fit:cover;
+ }
+ .ateliers-template-default.single.single-ateliers .attachment-post-thumbnail{
+   display: none;
+ }
+.post-template-default.single.single-post p,.wp-block-columns{
+  /* width: 95%; */
+  margin-right: 30px;
+}
+.post-template-default.single.single-post p,.wp-block-columns.presentation{
+  width: 100%;
+}
+.post-template-default.single.single-post h2,.wp-block-columns.presentation{
+  width: 100%;
+}
+
+
+.post-template-default.single.single-post h2{
+  width: 95%;
+}
+  /* S'inscrire */
+
+.connexion > h2:nth-child(1), .connexion {
+  color: white;
+}
+
+#login-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inscription {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: auto;
+}
+
+
+.connexion {
+  border-radius: 20px;
+  background-color: rgba(83, 191, 199);
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  width: 47%;
+  height: 455px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.login-username > label:nth-child(1) {
+  margin-left: 57px;
+ }
+
+b, strong {
+  font-weight: 400;
+}
+
+.contact {
+  width:50%;
+  border-radius: 20px;
+  background-color: rgba(249, 208, 24);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.contact a{color:#3a3a3a;text-decoration:underline;font-weight:normal;}
+.connexion a{color:#fff;text-decoration:underline;font-weight:normal;}
+.connexion small{display:block;margin:0 auto;}
+.connexion h2{margin-bottom:50px;}
+.contact .wp-block-button.atelier .wp-block-button__link{text-decoration:none;}
+.site-content .contact  li:before{color:#3a3a3a;}
+
+.contact > h2:nth-child(1) > strong:nth-child(1) {
+  color: #fff;
+ }
+
+#primary > div:nth-child(2) > h2:nth-child(1) {
+  text-align: center;
+
+}
+#wp-submit {
+ background-color: #11757C;
+}
+#wp-submit:hover {
+  background-color: #3a3a3a;
+ }
+
+ @media (min-width:993px) {
+  .ast-separate-container #primary,
+  .ast-separate-container.ast-left-sidebar #primary,
+  .ast-separate-container.ast-right-sidebar #primary {
+   margin:1em 0;
+   padding: inherit;
+  }
+ 
+ }
+ h1.single_atelier{
+    font-family: 'brannboll';
+    font-size: 13rem;
+    color: #F8CF1B;
+ }
+ /* ATELIER SINGLE */
+ div.wp-block-columns:nth-child(1) > div:nth-child(2) {
+  flex-basis:33%;
+ }
+ .wp-block-column {
+  border: inherit;
+}
+.wp-block-buttons{
+  justify-content: center;
+}
+
+.aside{
+  color: white;
+  border-radius: 20px;
+  z-index: 20;
+}
+.ateliers-template-default.single.single-ateliers .wp-block-button__link {
+  margin-top: 30px;text-decoration:none;
+ }
+ 
+div.aside:nth-child(1) {
+  background-color:#E84B5E;
+ }
+ div.aside:nth-child(2) {
+  background-color:#F9D018;
+ }
+ div.aside:nth-child(3) {
+  background-color:#33B3BC;
+ }
+ /* .ateliers-template-default.single.single-ateliers .wp-block-image{
+  margin-left: 41px;
+ } */
+ 
+div.wp-block-column:nth-child(1) > p{
+  text-align: left;
+ }
+
+.cards_cours{
+  display: flex;
+}
+.card_cours.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.site-content li{
+  list-style: none;
+  font-family: 'Gotham Book';padding-left: 15px;
+}
+li.blocks-gallery-item.cboxElement::before{
+  content:"";
+}
+
+
+.site-content li:before{
+  content: "+";
+  color:#33B3BC;
+  padding-right: 10px;margin-left: -19px;
+  font-weight: 900;
+  font-family: 'Gotham Bold';
+}
+
+.wp-block-image {
+  margin-bottom: inherit;
+}
+.ast-button, .ast-custom-button, body, button, input[type="button"], input[type="submit"], textarea {
+  line-height: inherit; 
+}
+
+.menu-toggle, button, .ast-button, .ast-custom-button, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"] {
+border-radius: 24px;
+}
+
+.wp-block-button .wp-block-button__link {
+border-radius: 24px;
+}
+
+.site-content .aside li::before{
+  color: white;
+}
+
+
+/* INTRODUCTION */
+div.wp-block-group:nth-child(4) {
+  width: 80%;
+  margin: auto;
+ }
+.postid-513 div.wp-block-group:nth-child(4){width:100%;}
+
+/* bloc Formules */
+div.wp-block-columns:nth-child(6)  {
+  padding-left: inherit;
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;      
+  grid-template-rows: 254px;
+}
+ div.wp-block-columns:nth-child(6) > div:nth-child(4)  {
+  grid-column: 3/4;
+ }
+ div.wp-block-columns:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3{
+  font-family: 'Gotham Bold';
+ }
+ div.wp-block-columns:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) > span:nth-child(1) > a:nth-child(1) {
+  color: white;
+ }
+ div.wp-block-columns:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(4) > strong:nth-child(2) > span:nth-child(1) {
+  font-size: 1.4rem;
+ }
+div.wp-block-columns:nth-child(6) > div:nth-child(4) > div:nth-child(1) {
+  margin: 40px;
+}
+
+/* wb-calendrier */
+.wb-calendrier{display:flex;flex-wrap:wrap;list-style:none;text-align:center;}
+.wb-calendrier li::before{display:none;}
+.wb-calendrier li{width:20%;height:250px;padding:20px;color:#fff;font-family: 'Gotham Bold';}
+.wb-calendrier li h3{margin-bottom:10px;font-size:2em;color:#fff;font-family: 'Gotham Bold';}
+.wb-calendrier li a{color:#fff;text-decoration:underline;}
+.wb-calendrier li:nth-child(4n+1){background-color: #fad119;}
+.wb-calendrier li:nth-child(4n+2){background-color: #33b4bd;}
+.wb-calendrier li:nth-child(4n+3){background-color: #e84c5d;}
+.wb-calendrier li:nth-child(4n+4){background-color: #a9d7c7;}
+.postid-2466 div.wp-block-group:nth-child(4) {width:90%;}
+
+
+#primary > p:nth-child(3) {
+  /* margin-left: 57px; */
+  margin-left: 35px;
+}
+
+#primary > h1:nth-child(2) {
+  /* padding-left: 56px; */
+  padding-left: 78px;
+}
+div.wp-block-column:nth-child(1) > p{
+  padding-left: 46px;
+ }
+ 
+ .wp-block-button.sur_demande .wp-block-button__link {
+  background-color:#487968;
+
+ }
+ .wp-block-button.notice .wp-block-button__link {
+  background-color:#AD2E3D;
+ }
+ .wp-block-button.accompagnement .wp-block-button__link {
+  background-color:#11757C;
+ }
+ .wp-block-button.atelier .wp-block-button__link {
+  background-color:#DDB400;
+ }
+ .wp-block-button .wp-block-button__link:hover {
+  background-color:#3a3a3a; 
+
+ }
+
+
+ 
+.cards_menu h2 {
+  /* font-family: 'Gotham Book'; */
+  font-size: 25px;
+  padding-left: 20px;
+  }
+.page-template.page-template-template-atelier article.ast-article-single {
+  min-height: inherit; 
+}
+
+.page-template.page-template-template-atelier .wp-block-group.content{padding-bottom:0;}
+.page-template.page-template-template-atelier .wp-block-group.content .wp-block-buttons {justify-content:left;}
+
+
+.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single {
+  min-height: 436px; 
+}
+
+#primary > h1:nth-child(2) {
+  font-size: 4rem;
+}
+
+#primary > p:nth-child() {
+  padding-left: 46px;
+}
+.aside h2 {
+  color: white;
+}
+/*COURS CARDS */
+.page-template.page-template-template-connection .card__image{
+  object-fit: cover;
+}
+
+/* COURS SON */
+/*.wp-block-audio {
+  padding-top: 30px;
+ }*/
+ .post-template-default.single.single-post .attachment-post-thumbnail {
+  max-height: 423px;
+ }
+/* Footer */
+.site-above-footer-wrap {
+  margin-top: 30px; 
+}
+footer h2.widget-title{margin-bottom:0;padding:30px;padding-bottom:0;width:100%;}
+.home .site-below-footer-wrap li::before{
+  content: inherit;
+}
+
+#menu-item-245 > a:nth-child(1) {
+  font-family: 'Gotham Book';
+ }
+.cards_actu.menu.showing{
+  transform: inherit;
+}
+
+div.wp-block-column.content, .content{
+  padding-left: 73px;
+  padding-right: 73px
+ }
+ h2 {
+  padding: 30px 30px 30px 0px;
+}
+div.wp-block-column:nth-child(1) > p {
+  padding-left: 0px;
+ }
+ #primary > h1:nth-child(2) {
+  /* padding-left: 56px; */
+  padding-left: 73px;
+}
+
+/* MENU MOBILE */
+[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+  fill: #2EB1BB;
+}
+
+ #menu-item-534 > a:nth-child(1){
+  background-color: #2EB1BB;
+  color: white;
+ }
+
+ #menu-item-535 > a:nth-child(1) {
+  background-color: #F8CF1B;
+  color: white;
+ }
+
+
+ #menu-item-537 > a:nth-child(1) {
+  background-color: #A9D6C6;
+  color: white;
+
+ }
+ #menu-item-536 > a:nth-child(1) {
+  background-color: #E84B5E;
+  color: white;
+ }
+ .ast-header-break-point .main-navigation ul .menu-item .menu-link {
+  font-family: 'Gotham Bold';
+ }
+ 
+   
+/* slider  */
+.splide__slide img {
+  vertical-align: bottom;
+  object-fit: cover;
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+}
+.site-content .splide li:before {
+  content: inherit
+}
+button:focus,
+.menu-toggle:hover,
+button:hover,
+.ast-button:hover,
+.ast-custom-button:hover .button:hover,
+.ast-custom-button:hover ,
+input[type=reset]:hover,
+input[type=reset]:focus,
+input#submit:hover,
+input#submit:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+ background-color:#E84B5E;
+ border-color:#E84B5E;
+}
+li.splide__slide img{
+  height: 439px;
+ }
+
+div.wp-block-group.introduction {
+width: 80%;
+margin: auto;
+padding-bottom:1em;
+}
+.splide__pagination {
+  display: none;
+ }
+ 
+
+
+/* RESPONSIVE */
+@media (max-width:1270px) {
+/* HERO GALERIE */
+.wp-block-columns.hero_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: (2, auto);
+}
+.hero_image > div:nth-child(4) {
+  display: none;
+ }
+ /*presentation */
+.wp-image-229 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+ .wp-block-column.presentation {
+  margin:0px; 
+ } 
+
+
+ /* OFFRES */
+
+
+ div.wp-block-columns:nth-child(6) {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(2,auto);
+ }
+ div.wp-block-columns:nth-child(6) > div:nth-child(4) {
+  grid-column: 2;
+ }
+ 
+/*SLIDER ATELIER */
+li.splide__slide img {
+  height: 301px;
+ }
+a > img:nth-child(1) {
+  object-fit: contain;
+  height: 200px;
+ }
+ /* ARCHIVE COURS */
+ .page-template-template-cours .cards_actu.menu{
+  grid-template-rows: repeat(2, 330px);
+} 
+.ast-separate-container .ast-article-post, .ast-separate-container .ast-article-single {
+  min-height: inherit; 
+}
+/* CONNECTION */
+.inscription{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+}
+.connexion{
+  width: 70%;
+}
+.contact{
+ margin-top: 40px; 
+ width: 70%;
+}
+
+
+}
+
+@media (max-width:993px) {
+/* HERO GALERIE */
+.wp-block-columns.hero_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero_image > div:nth-child(1) {
+  display: none;
+ }
+ .hero_image > div:nth-child(2) {
+  margin-left: inherit;
+ }
+ /*INTRODUCTION */
+ p.has-text-align-center {
+  width: 70%;
+}
+/* ARCHIVE COURS */
+.page-template-template-cours .cards_actu.menu{
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(2, auto);
+ 
+ }
+ /* ATELIER SINGLE */
+ .ateliers-template-default.single.single-ateliers .wp-block-columns{
+    display: flex;
+    flex-direction: column;
+ }
+ .wp-block-column.aside.atelier{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 23px;
+ }
+
+
+
+}
+
+@media (max-width:923px) {
+   
+  /* acces espace membre */
+  .acces_membres {
+    width: 100%;
+    background-color: #E74D5D;
+    border-radius: 0px 0px 24px 24px;
+  }
+  .acces_membres {
+    text-align: center;
+   }
+  /* HERO GALERIE */
+   .wp-block-columns.hero_image{
+    display: flex;
+   }
+   .wp-image-224 {
+    display: none;
+  }
+   /* HERO GALERIE */
+   .wp-block-columns.hero_image {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .hero_image > div:nth-child(2) {
+    display: none;
+   }
+   div.presentation:nth-child(1) > div:nth-child(1) {
+    flex-basis:40%;
+   }
+   /* h3 */
+   h3{
+    padding-top: 30px;  
+    }
+}
+@media (max-width:920px) {
+    .site-header-primary-section-right{position:absolute;top:-70px;right:20px;}
+    .wp-block-image.size-large.decouverte img{height:auto;}
+ }
+@media (max-width:768px) {
+
+  .wp-image-220 {
+    object-fit: contain;
+   }
+   
+/*INTRODUCTION */
+     p.has-text-align-center {
+      width: 90%;
+    }
+/*SLIDER ATELIER */
+    li.splide__slide img {
+    height: 201px;
+    }
+
+    /* offres */
+    div.wp-block-columns:nth-child(6) > div:nth-child(4) > div:nth-child(1) {
+      margin: inherit; 
+    }  
+ /* ATELIER SINGLE */
+ #primary > h1:nth-child(2) {
+  font-size: 3rem;
+}
+/* ARCHIVE COURS */
+.page-template-template-cours .cards_actu.menu{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+
+}
+/* OFFRES */
+div.wp-block-columns:nth-child(6) {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4,auto);
+}
+div.wp-block-columns:nth-child(6) > div:nth-child(4) {
+ grid-column: 1;
+ margin: auto;
+}
+/* COURS SINGLE */
+.single-post .wp-block-columns{
+flex-direction:column
+
+    }
+  }
+
+@media (max-width:640px) {
+    h1{padding:0;text-align:center;}
+    .site-below-footer-wrap[data-section="section-below-footer-builder"].ast-footer-row-mobile-stack .site-footer-section {margin: 5px auto 0;}
+    .contact, .connexion, div.wp-block-group:nth-child(4), div.wp-block-group.introduction, .container{width:100%;}
+    div.wp-block-column.content, .content{padding-left:5px;padding-right:5px; }
+    #primary > h1:nth-child(2){padding-left:5px;padding-right:5px;line-height:33px;text-align:center;}
+    .contact{padding-left:20px;padding-right:20px;}
+}
+
+@media (max-width:420px) {
+    h2{padding:30px 0;}
+    div.wp-block-group:nth-child(4) > div:nth-child(1){margin:0;}
+    .home .hero_image .wp-block-column{margin:0;}
+    #login-form label{padding-bottom:10px;margin:0;display:block;}
+    .connexion, .contact{height:auto;}
+    .connexion h2{margin-bottom:10px;}
+}
